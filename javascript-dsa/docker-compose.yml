@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  dsa:
+    build: .
+    container_name: javascript-dsa-mastery
+    volumes:
+      - .:/app
+      - /app/node_modules
+    working_dir: /app
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
+    command: /bin/sh

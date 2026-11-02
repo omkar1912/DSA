@@ -1,0 +1,40 @@
+{
+  "name": "javascript-dsa-mastery",
+  "version": "1.0.0",
+  "description": "JavaScript Data Structures and Algorithms Mastery Training",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node",
+    "test": "node --test **/*.test.js",
+    "arrays": "node arrays/index.js",
+    "sorting": "node sorting/index.js",
+    "searching": "node searching/index.js",
+    "linked-list": "node linked-list/index.js",
+    "stack": "node stack/index.js",
+    "queue": "node queue/index.js",
+    "trees": "node trees/index.js",
+    "bst": "node bst/index.js",
+    "graph": "node graph/index.js",
+    "dp": "node dp/index.js",
+    "strings": "node strings/index.js",
+    "recursion": "node recursion/index.js",
+    "backtracking": "node backtracking/index.js",
+    "greedy": "node greedy/index.js",
+    "heap": "node heap/index.js",
+    "bit-manipulation": "node bit-manipulation/index.js",
+    "trie": "node trie/index.js",
+    "leetcode": "node leetcode/index.js"
+  },
+  "keywords": [
+    "dsa",
+    "data-structures",
+    "algorithms",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  }
+}
